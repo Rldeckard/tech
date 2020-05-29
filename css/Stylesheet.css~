@@ -1,0 +1,130 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #ddd;
+}
+a:hover {
+  opacity: .6
+}
+.empty_row {
+  width: 25%;
+}
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=password], input[type=number], input[type=email],
+ select, select option, textarea {
+  background-color:  white;
+/*  box-shadow: inset 1px 2px 1px 1px gray; */
+  color: black;
+  padding: 12px; /* Some padding */
+  border: 0px;
+  border-bottom: 1px solid gray; /*  Gray border  */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  height: 5%;
+  outline-color: blue;
+}
+textarea {
+  border: 1px solid gray;
+  height: 10%;
+}
+label {
+  padding: 12px 8px 8px 0;
+  display: inline-block;
+  color: black;
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: transparent;
+  font-weight: bold;
+  border: 3px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(255, 255, 255, .1);
+  color: black;
+}
+.header {
+  padding: 0;
+  text-align: left;
+}
+.background {
+  background-image: url("Images/stars.png");
+  /* Set a specific height */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px 5px;
+  padding: 20px;
+  padding-top: 150px;
+}
+.col {
+  background-color: rgba(255, 255, 255, .1);
+  height: auto;
+  padding: 15px;
+  margin: 2%;
+  border-radius: 1%;
+  color: #eee;
+
+}
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-50 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: inline-block;
+  clear: both;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: gray;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: gray;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: gray;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: gray;
+}
+.button {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid black;
+}
+.button:hover {
+  background-color: gray;
+}

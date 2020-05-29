@@ -1,0 +1,90 @@
+<html>
+<head>
+<?php include('header.php');?>
+<style>
+.col:hover {
+  opacity: 1; 
+}
+.container {
+  text-align: center;
+}
+.col:action {
+  box-shadow: 5px 5px 5px 2px  gray;
+}
+a {
+  color: black;  
+}
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  border: 0;
+  box-shadow: 1px 1px 1px 1px  #ccc;
+}
+.background {
+  background-image: url("Images/stars.png");
+  /* Set a specific height */
+  height: 1100px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.row {
+  background: inherit;  
+  text-align: center;
+  width: auto;
+
+}
+* {
+  box-sizing: border-box;
+}
+.blue {
+  color: #3A96B8;
+  font-weight: normal;
+}
+p {
+  text-align: center;
+}
+ul {
+  text-align: left;
+}
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+<div class="box background">
+  <div class="row" style="grid-row:1">
+    <h1 class="blue">Comprehensive guide to fair pricing</h1>
+    <blockquote>Below are the prices listed per visit and service request. Questions and quotes can be requested through the contact tab at the top. Any and all inquires are welcome.</blockquote>
+    <br>
+    <br>
+  </div>
+    <a href="computerguycontact.php" style="grid-row:2;">
+      <div class="col">
+        <p><i class="fa fa-home fa-5x" ></i><br><br>Residential Service - $50 per Hour</p><hr><br>
+        <p>Will cover most residential jobs. Slow computer repair to Wi-Fi replacement all for $50, and can typically be done in less than an hour! </p>
+      </div>
+    </a>
+    <a href="computerguycontact.php" style="grid-row:3;">
+      <div class="col">
+        <p><i class="fa fa-server fa-5x" ></i><br><br>Business Service - $75 per Hour</p><hr><br>
+        <p>Offering anything your business needs! Changes to a website? Look no further. Managing confusing Microsoft Licenses? Let Me handle that burden. Tired of manually upgrading all the computers in your office? I'd be happy to take that off your hands. Much cheaper than hiring a full time IT staff and much more knowledgeable.</p>
+      </div>
+    </a>
+</div>
+</body>
+</html>
