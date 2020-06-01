@@ -2,6 +2,26 @@
 <head>
 <?php include('header.php');?>
 <style>
+.slide_in{
+  animation: slideMe 1s ease-in;
+}
+@keyframes slideMe{
+  0%{
+    transform: skewX(53deg) translateX(-500px);
+  }
+  60%{
+    transform:translateX(0px);
+  }
+  62%{
+    transform:skewX(0deg) translateX(30px);
+  }
+  70%{
+    transform: skew(-20deg);
+  }
+  100%{
+    transform:skew(0deg);
+  }
+}
 .col:hover {
   opacity: 1; 
 }
@@ -67,6 +87,7 @@ a {
 </head>
 <body>
 <div class="box background">
+<div class="slide_in">
   <div class="row" style="grid-row:1">
     <h1 class="blue">Comprehensive guide to fair pricing</h1>
     <blockquote>Below are the prices listed per visit and service request. Questions and quotes can be requested through the contact tab at the top. Any and all inquires are welcome.</blockquote>
@@ -85,6 +106,7 @@ a {
         <p>Offering anything your business needs! Changes to a website? Look no further. Managing confusing Microsoft Licenses? Let Me handle that burden. Tired of manually upgrading all the computers in your office? I'd be happy to take that off your hands. Much cheaper than hiring a full time IT staff and much more knowledgeable.</p>
       </div>
     </a>
+</div>
 </div>
 </body>
 </html>
