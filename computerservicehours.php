@@ -2,6 +2,18 @@
 <head>
 <?php include('header.php');?>
 <style>
+.animation{
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
 .col:hover {
   opacity: 1; 
 }
@@ -67,6 +79,7 @@ a {
 </head>
 <body>
 <div class="box background">
+  <div class = "animation">
   <div class="row" style="grid-column:1/4;grid-row:2">
     <h1 class="blue">HOURS OF OPERATION</h1>
   </div>
@@ -86,6 +99,7 @@ a {
     <li>If no one is available by phone, or your inquiry needs addressed outside of working hours, leave a voicemail or submit a ticket through the email listed in the contact tab at the top.</li>
   </ul>
   </div>
+</div>
 </div>
 </body>
 </html>
