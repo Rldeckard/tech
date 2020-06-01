@@ -34,7 +34,6 @@ if (isset($_SESSION['LAST_ACTIVITY']) &&
 $_SESSION['LAST_ACTIVITY'] = $time;
 ?>
 <!DOCTYPE html>
-<html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="Images/logo-web-icon.png">
 <link href="css/Stylesheet.css" rel="stylesheet">
@@ -109,8 +108,8 @@ ul {
 }
 </style>
 <!--<img src="Images/logo-web.jpg" width='250' alt="Deckard Tech">-->
-<div class="tab box">
-  <div style="float:left;grid-row:1">
+<div class="tab">
+  <div style="float:left">
     <button class="tablinks" onclick="location.href='index.php'">Home</button>
     <button class="tablinks" onclick="location.href='fairtechpricing.php'">Pricing Guide</button>
     <button class="tablinks" onclick="location.href='computerservicehours.php'">Business Hours</button>

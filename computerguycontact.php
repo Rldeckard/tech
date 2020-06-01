@@ -2,7 +2,7 @@
 <head>
 <?php include('header.php');?>
 <style>
-body{
+.row, .col{
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;

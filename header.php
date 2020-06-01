@@ -34,7 +34,6 @@ if (isset($_SESSION['LAST_ACTIVITY']) &&
 $_SESSION['LAST_ACTIVITY'] = $time;
 ?>
 <!DOCTYPE html>
-<html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="Images/logo-web-icon.png">
 <link href="css/Stylesheet.css" rel="stylesheet">
@@ -56,6 +55,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
   top: 0;
   width: 100%;
   text-align: right;
+  z-index: 1;
 }
 
 /* Style the buttons inside the tab */

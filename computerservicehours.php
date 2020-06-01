@@ -14,6 +14,7 @@
 100% {
     opacity: 1;
 }
+}
 .col:hover {
   opacity: 1; 
 }
@@ -79,7 +80,7 @@ a {
 </head>
 <body>
 <div class="box background">
-  <div class = "animation">
+  <div class="animation">
   <div class="row" style="grid-column:1/4;grid-row:2">
     <h1 class="blue">HOURS OF OPERATION</h1>
   </div>
