@@ -55,7 +55,7 @@ input[type=submit]:hover {
   text-align: left;
 }
 .background {
-  background-image: url("Images/stars.png");
+  background-image: url("../Images/stars.png");
   /* Set a specific height */
 
   /* Create the parallax scrolling effect */

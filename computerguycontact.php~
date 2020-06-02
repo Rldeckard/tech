@@ -2,6 +2,19 @@
 <head>
 <?php include('header.php');?>
 <style>
+body{
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
 .col:hover {
   opacity: 1;
 }
@@ -109,13 +122,10 @@ input[type="submit"] {
       <p>Telephone Number<br><br>(843) 900-4690</p><br>
       <p>Physical Address<br><br>Summerville, SC 29483</p>
       </div>
-    </div>
-  </body>
-</html>
 <?php
 if (isset($_POST['submit'])) {
     include_once('Mail.php');
-    include_once('Mail/Mail_Mime.php');
+    include_once('Mail/mime.php');
 
     $message = new Mail_mime();
 
@@ -123,11 +133,10 @@ if (isset($_POST['submit'])) {
   
     $body = $message->get();
     
-    $extraheaders = array("From"=>'WEB FORM <ryan@deckardenterprises.com>', 
+    $extraheaders = array("From"=>$_POST['firstName'].' '.$_POST['lastName'].' <ryan@deckardenterprises.com>', 
     "To"=>'<ryan@deckardenterprises.com>', 
     "Subject"=>'New WEB FORM Request',
     "Reply-To"=>$_POST['emailTo'],
-    "Cc"=>$_SESSION['email']
     );
 
     $headers = $message->headers($extraheaders);
@@ -138,12 +147,23 @@ if (isset($_POST['submit'])) {
     $params["username"] = 'ryan.l.deckard@gmail.com'; // The username to use for SMTP authentication.
     $params["password"] = 'Rd5809#!'; // The password to use for SMTP authentication.
 
-    $smtp =& Mail::factory('smtp', $params);
+    $smtp = Mail::factory('smtp', $params);
 
-    $mail = $smtp->send($_POST['email'], $headers, $body);
+    $mail = $smtp->send('ryan@deckardenterprises.com', $headers, $body);
     
     if (PEAR::isError($mail)) {
-          echo("<p>" . $mail->getMessage() . "</p>");
+      echo '<div class="col" style="grid-column:2;grid-row:3;z-index:1;text-align:center">
+              <i class="fa fa-times-cirle fa-5x"></i><br><br>
+                Your request has NOT been submitted. Please try again or contact us directly at (843) 900-4690 or by using the contact info below.
+            </div>';
+    } else {
+      echo '<div class="col" style="grid-column:2;grid-row:3;z-index:1;text-align:center">
+              <i class="fa fa-check fa-5x"></i><br><br>
+                Your request has been submitted and a qualified technician will be with you as soon as possible!
+            </div>';
     }
 }
 ?>
+ </div>
+</body>
+</html>

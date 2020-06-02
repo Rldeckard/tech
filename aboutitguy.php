@@ -2,6 +2,27 @@
 <head>
 <?php include('header.php');?>
 <style>
+
+.slide_in{
+  animation: slideMe 1s ease-in;
+}
+@keyframes slideMe{
+  0%{
+    transform: skewX(53deg) translateX(-500px);
+  }
+  60%{
+    transform:translateX(0px);
+  }
+  62%{
+    transform:skewX(0deg) translateX(30px);
+  }
+  70%{
+    transform: skew(-20deg);
+  }
+  100%{
+    transform:skew(0deg);
+  }
+}
 .col:hover {
   opacity: 1; 
 }
@@ -71,9 +92,10 @@ a {
 <body>
 <div class="box background">
   <div class="row" style="grid-column:1/4;grid-row:2">
-    <h1 class="blue">About Me</h1>
+    <div class="slide_in"><h1 class="blue">About Me</h1></div>
   </div>
   <div class="col" style="grid-column:2;grid-row:5">
+   <div class = "slide_in">
     <p>My name is Ryan Deckard and I'd love to take a moment to tell you about myself. I've lived in this area almost my entire life, growing up in Springfield, and later
      moving out to Summerville. Computer / Internet work has always been my passion. For the past couple of years I began pursuing this line of work as a career in the 
      Missouri National Guard as a 25B - Information Technology Specialist and I would love to pass on my experience and expertise to all of my neighbors and just any 
@@ -81,6 +103,7 @@ a {
      as a way to ease the burden of this new confusing world. If you ever have any issues or need help with anything computer related don't hesitate to get in contact 
      with me anyway you feel comfortable. </p>
   </div>
+</div>
   <div class="row" style="grid-column:2;grid-row:4">
     <img src="Images/logo-web.jpg" width='300'>
   </div>
