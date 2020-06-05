@@ -90,6 +90,9 @@ a {
 .LI-profile-badge {
   text-align: left;
 }
+.align-left {
+  text-align: left;
+}
 </style>
 </head>
 <body>
