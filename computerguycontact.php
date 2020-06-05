@@ -126,31 +126,33 @@ input[type="submit"] {
 if (isset($_POST['submit'])) {
     include_once('Mail.php');
     include_once('Mail/mime.php');
+    include 'credentials.php';
 
     $message = new Mail_mime();
 
     $message->setTXTBody($_POST['emailBody']);
-  
+
     $body = $message->get();
-    
-    $extraheaders = array("From"=>$_POST['firstName'].' '.$_POST['lastName'].' <ryan@deckardenterprises.com>', 
-    "To"=>'<ryan@deckardenterprises.com>', 
+
+    $extraheaders = array("From"=>$_POST['firstName'].' '.$_POST['lastName'].' <'.$companyEmail.'>', 
+    "To"=>$companyEmail,
     "Subject"=>'New WEB FORM Request',
     "Reply-To"=>$_POST['emailTo'],
     );
 
     $headers = $message->headers($extraheaders);
 
+/*  Create a credentials file as above and past in the below code filling out the vital information
     $params["host"] = 'smtp.gmail.com'; // The server to connect. Default is localhost.
     $params["port"] = '587'; // The port to connect. Default is 25.
     $params["auth"] = true; // Whether or not to use SMTP authentication. Default is FALSE.
-    $params["username"] = 'ryan.l.deckard@gmail.com'; // The username to use for SMTP authentication.
-    $params["password"] = 'Rd5809#!'; // The password to use for SMTP authentication.
+    $params["username"] = ''; // The username to use for SMTP authentication.
+    $params["password"] = ''; // The password to use for SMTP authentication. */
 
     $smtp = Mail::factory('smtp', $params);
 
     $mail = $smtp->send('ryan@deckardenterprises.com', $headers, $body);
-    
+
     if (PEAR::isError($mail)) {
       echo '<div class="col" style="grid-column:2;grid-row:3;z-index:1;text-align:center">
               <i class="fa fa-times-cirle fa-5x"></i><br><br>
