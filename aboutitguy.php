@@ -110,8 +110,8 @@ a {
      with me anyway you feel comfortable. </p>
   </div>
 </div>
-  <div class="row align-left" style="grid-column:2;grid-row:4">
-    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ryanldeckard"><a class="LI-simple-link" href='https://www.linkedin.com/in/ryanldeckard?trk=profile-badge'>Ryan Deckard</a></div>
+  <div class="row" style="grid-column:2;grid-row:4">
+    <div class="LI-profile-badge align-left"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ryanldeckard"><a class="LI-simple-link" href='https://www.linkedin.com/in/ryanldeckard?trk=profile-badge'>Ryan Deckard</a></div>
   </div>
   <div class="row" style="grid-column:2;grid-row:6">
     <img src="Images/logo-web.jpg" width='300'>
