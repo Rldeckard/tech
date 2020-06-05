@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 #  if (!isset($_SESSION['username']) || $_SESSION['username'] == '') {
 #    header('Location: login.php');
 #  }
-  
+
   $time = $_SERVER['REQUEST_TIME'];
 
 /**
@@ -19,7 +19,7 @@ $timeout_duration = 21600;
 * it's set and indicates our $timeout_duration has passed,
 * blow away any previous $_SESSION data and start a new one.
 */
-if (isset($_SESSION['LAST_ACTIVITY']) && 
+if (isset($_SESSION['LAST_ACTIVITY']) &&
    ($time - $_SESSION['LAST_ACTIVITY']) > $timeout_duration) {
     session_unset();
     session_destroy();
@@ -40,6 +40,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 <link href="css/mobile.css" rel="stylesheet">
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 
 <title>Deckard Tech Computer Solutions</title>
@@ -72,7 +73,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
   font-size: 17px;
   color: #3A96B8;
 }
-.tab select { 
+.tab select {
   width: auto;
   height: auto;
   margin: auto;
@@ -83,7 +84,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 .tab button:hover, .tab select:hover, .tab a:hover{
   background-color: #ddd;
   color: #222;
-  
+
 }
 
 /* Create an active/current tablink class */
@@ -118,11 +119,9 @@ ul {
     <button class="tablinks" onclick="location.href='computerguycontact.php'">Contact Us</button>
   </div>
   <div style="float:right">
-  
+
     <a class="tablinks" href='https://facebook.com/deckardtech' target="_blank"><i class="fa fa-facebook"></i></a>
     <a class="tablinks" href='https://www.linkedin.com/in/ryanldeckard/' target="_blank"><i class="fa fa-linkedin"></i></a>
     <a class="tablinks" href='mailto:ryan@deckardenterprises.com'><i class="fa fa-envelope"></i></a>
   </div>
 </div>
-
-
