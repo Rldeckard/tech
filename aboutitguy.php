@@ -24,7 +24,7 @@
   }
 }
 .col:hover {
-  opacity: 1; 
+  opacity: 1;
 }
 .container {
   text-align: center;
@@ -33,7 +33,7 @@
   box-shadow: 5px 5px 5px 2px  gray;
 }
 a {
-  color: black;  
+  color: black;
 }
 ul {
   list-style-type: square;
@@ -57,7 +57,7 @@ hr {
   background-size: cover;
 }
 .row {
-  background: inherit;  
+  background: inherit;
   text-align: center;
   width: auto;
 
@@ -95,20 +95,20 @@ a {
     <div class="slide_in"><h1 class="blue">About Me</h1></div>
   </div>
   <div class="col" style="grid-column:2;grid-row:5">
-   <div class = "slide_in">
+   <div class="slide_in">
     <p>My name is Ryan Deckard and I'd love to take a moment to tell you about myself. I've lived in this area almost my entire life, growing up in Springfield, and later
-     moving out to Summerville. Computer / Internet work has always been my passion. For the past couple of years I began pursuing this line of work as a career in the 
-     Missouri National Guard as a 25B - Information Technology Specialist and I would love to pass on my experience and expertise to all of my neighbors and just any 
-     individual in general having trouble making the transition into this new technological age. I'm starting this little project as a helper and an assistant to you 
-     as a way to ease the burden of this new confusing world. If you ever have any issues or need help with anything computer related don't hesitate to get in contact 
+     moving out to Summerville. Computer / Internet work has always been my passion. For the past couple of years I began pursuing this line of work as a career in the
+     Missouri National Guard as a 25B - Information Technology Specialist and I would love to pass on my experience and expertise to all of my neighbors and just any
+     individual in general having trouble making the transition into this new technological age. I'm starting this little project as a helper and an assistant to you
+     as a way to ease the burden of this new confusing world. If you ever have any issues or need help with anything computer related don't hesitate to get in contact
      with me anyway you feel comfortable. </p>
   </div>
 </div>
   <div class="row" style="grid-column:2;grid-row:4">
-    <img src="Images/logo-web.jpg" width='300'>
+    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ryanldeckard"><a class="LI-simple-link" href='https://www.linkedin.com/in/ryanldeckard?trk=profile-badge'>Ryan Deckard</a></div>
   </div>
   <div class="row" style="grid-column:2;grid-row:6">
-    <img src="Images/cover-logo-white-color.jpg" width='300'>
+    <img src="Images/logo-web.jpg" width='300'>
   </div>
 </div>
 </body>

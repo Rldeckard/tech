@@ -102,8 +102,7 @@ input[type="submit"] {
   <body>
     <div class="box background">
       <div class="row" style="grid-column:1/4;grid-row:4">
-      <h1 class="blue">Contact Me</h1>
-      <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ryanldeckard"><a class="LI-simple-link" href='https://www.linkedin.com/in/ryanldeckard?trk=profile-badge'>Ryan Deckard</a></div>
+      <h1 class="blue">Contact Us</h1>
       </div>
       <div class="row" style="grid-column:2;grid-row:5;">
       <p>If you have any questions or inquiries about the services offered here, please fill out the form below and I'll be in touch as soon as possible. </p>
