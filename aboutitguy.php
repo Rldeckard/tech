@@ -87,9 +87,7 @@ a {
   height: auto;
   width: auto;
 }
-.LI-profile-badge {
-  text-align: left;
-}
+
 .align-left {
   text-align: left;
 }
