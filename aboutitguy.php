@@ -89,7 +89,7 @@ a {
 }
 
 .align-left {
-  text-align: left;
+  text-align: reset;
 }
 </style>
 </head>
