@@ -78,7 +78,7 @@ input[type=submit]:hover {
   padding-top: 150px;
 }
 .col {
-  background-color: rgba(255, 255, 255, .1);
+  background-color: rgba(255, 255, 255, .3);
   height: auto;
   padding: 15px;
   margin: 2%;
