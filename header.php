@@ -73,6 +73,7 @@ $_SESSION['LAST_ACTIVITY'] = $time;
   background-color: inherit;
   text-decoration: none;
   float: left;
+  vertical-align: center;
   text-align: right;
   border: none;
   outline: none;
@@ -121,11 +122,12 @@ ul {
 <!--<img src="Images/logo-web.jpg" width='250' alt="Deckard Tech">-->
 <div class="tab">
   <div style="float:left">
-    <button class="tablinks" onclick="location.href='index.php'">Home</button>
-    <button class="tablinks" onclick="location.href='fairtechpricing.php'">Pricing Guide</button>
-    <button class="tablinks" onclick="location.href='computerservicehours.php'">Business Hours</button>
-    <button class="tablinks" onclick="location.href='aboutitguy.php'">About Us</button>
-    <button class="tablinks" onclick="location.href='computerguycontact.php'">Contact Us</button>
+    <button onclick="location.href='index.php'"><img src="Images/logo-web-transparent.png" width="45"></button>
+    <button class="tablinks" onclick="location.href='index.php'">Start Here</button>
+    <button class="tablinks" onclick="location.href='fairtechpricing.php'">Brass Tacks</button>
+    <button class="tablinks" onclick="location.href='computerservicehours.php'">When do we work?</button>
+    <button class="tablinks" onclick="location.href='aboutitguy.php'">Our Mission</button>
+    <button class="tablinks" onclick="location.href='computerguycontact.php'">Ask Me Anything!</button>
   </div>
   <div style="float:right">
 

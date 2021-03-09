@@ -1,6 +1,7 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  background-color: black;
 }
 body {
   margin: 0;

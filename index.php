@@ -88,8 +88,12 @@ a {
 <body>
 <div class="box background">
   <div class="row" style="grid-row:3">
-      <img src="Images/logo-web-transparent.png" width='300'>  
-    <h4>YOUR NEIGHBORHOOD TECH GUY AND NETWORK ENGINEER</h4>
+    <div style="text-align:left">
+    <span style="padding:0;margin:5px;font-size:30px"><b>Expert device repair, and troubleshooting.</b></span>
+    <br>&nbsp; iPhone screen replacement, 
+    <br>&nbsp; Computer Diagnostics, 
+    <br>&nbsp; In home device troubleshooting, and much more!
+    </div>
     <br>
     <br>
     <script id="setmore_script" 
