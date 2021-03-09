@@ -100,12 +100,12 @@ a {
   </div>
   <div class="col" style="grid-column:2;grid-row:5">
    <div class="slide_in">
-    <p>My name is Ryan Deckard and I'd love to take a moment to tell you about myself. I've lived in this area almost my entire life, growing up in Springfield, and later
-     moving out to Summerville. Computer / Internet work has always been my passion. For the past couple of years I began pursuing this line of work as a career in the
-     Missouri National Guard as a 25B - Information Technology Specialist and I would love to pass on my experience and expertise to all of my neighbors and just any
-     individual in general having trouble making the transition into this new technological age. I'm starting this little project as a helper and an assistant to you
-     as a way to ease the burden of this new confusing world. If you ever have any issues or need help with anything computer related don't hesitate to get in contact
-     with me anyway you feel comfortable. </p>
+    <p>My name is Ryan Deckard and I'd love to take a moment to tell you about myself. Computer / Internet work has always been my passion. 
+    For the past 6 years I've been pursuing this line of work as a career starting in the Missouri National Guard as a 25B - Information 
+    Technology Specialist as well as working at a local internet company in Springfield, MO. My family and I recenlty moved here to 
+    Summerville, SC to continue that same career as a Network Engineer assisting the base in Charleston and I would love to pass on 
+    my experience and expertise to all of my neighbors and friends here in the Low Country. If you ever have any issues or need help 
+    with anything computer related don't hesitate to get in contact with me anyway you feel comfortable. </p>
   </div>
 </div>
   <div class="row" style="grid-column:2;grid-row:4">

@@ -29,3 +29,6 @@ Processing '/etc/joe/joerc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/joerc
+
+*** These modified files were found in JOE when it aborted on Mon Mar  8 22:46:50 2021
+*** JOE was aborted because the terminal closed

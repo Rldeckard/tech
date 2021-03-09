@@ -127,6 +127,8 @@ if (isset($_POST['submit'])) {
     include_once('Mail.php');
     include_once('Mail/mime.php');
     include 'credentials.php';
+    
+    $companyEmail = 'ryan@deckardenterprises.com';
 
     $message = new Mail_mime();
 
@@ -151,7 +153,7 @@ if (isset($_POST['submit'])) {
 
     $smtp = Mail::factory('smtp', $params);
 
-    $mail = $smtp->send('ryan@deckardenterprises.com', $headers, $body);
+    $mail = $smtp->send($companyEmail, $headers, $body);
 
     if (PEAR::isError($mail)) {
       echo '<div class="col" style="grid-column:2;grid-row:3;z-index:1;text-align:center">

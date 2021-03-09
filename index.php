@@ -92,7 +92,16 @@ a {
     <h4>YOUR NEIGHBORHOOD TECH GUY AND NETWORK ENGINEER</h4>
     <br>
     <br>
-    <a href="https://facebook.com/deckardtech" class="booknow">Book Now &nbsp;<i class="fa fa-facebook"></i></a>
+    <script id="setmore_script" 
+            type="text/javascript" 
+            src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script>
+    <a id="Setmore_button_iframe" 
+       style="float:none" 
+       href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1">
+      <img border="none" 
+           src="https://storage.googleapis.com/setmore-assets/2.0/Images/Integration/book-now-blue.svg" 
+           alt="Book an appointment using Setmore" />
+    </a>
   </div>
   <div class="row" style="grid-row:4;text-align:left">
     <p>
@@ -102,7 +111,7 @@ a {
   contact tab above! Thank you for checking out my page and I look forward to hearing from you!
     </p>
   </div>
-  <a href="fairtechpricing.php" style="grid-row:5;">
+  <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:5;">
       <div class="col">
         <p class="title"><i class="fa fa-mobile fa-5x" ></i><br>Android and Apple iPhones</p><hr><br>
           <ul>
@@ -114,7 +123,7 @@ a {
           </ul>
       </div>
     </a>
-    <a href="fairtechpricing.php" style="grid-row:6;">
+    <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:6;">
       <div class="col">
         <p class="title"><i class="fa fa-laptop fa-5x" ></i><br>Desktops and Laptops</p><hr><br>
           <ul>
@@ -126,7 +135,7 @@ a {
           </ul>
       </div>
     </a>
-    <a href="fairtechpricing.php" style="grid-row:7;">
+    <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:7;">
       <div class="col">
         <p class="title"><i class="fa fa-code fa-5x" ></i><br><br>Website Design and Automation</p><hr><br>
           <ul>
@@ -138,7 +147,7 @@ a {
           </ul>
       </div>
     </a>
-    <a href="fairtechpricing.php" style="grid-row:8;">
+    <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:8;">
       <div class="col" style="grid-column:2;grid-row:3;">
         <p class="title"><i class="fa fa-cogs fa-5x" ></i><br><br>Software</p><hr><br>
           <ul>
@@ -149,7 +158,7 @@ a {
           </ul>
       </div>
     </a>
-    <a href="fairtechpricing.php" style="grid-row:9;">
+    <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:9;">
       <div class="col">
         <p class="title"><i class="fa fa-wifi fa-5x" ></i><br>Internet</p><hr><br>
           <ul>
