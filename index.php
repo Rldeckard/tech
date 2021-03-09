@@ -83,10 +83,14 @@ a {
   text-decoration: none;
   margin-top: 50px;
 }
+.body {
+  padding:5px;
+  padding-top:100px;
+}
 </style>
 </head>
 <body>
-<div class="box background">
+  <div style="padding:5px;padding-top:100px" class="body">
   <div class="row" style="grid-row:3">
     <div style="text-align:left">
     <span style="padding:0;margin:5px;font-size:30px"><b>Expert device repair, and troubleshooting.</b></span>
@@ -173,6 +177,6 @@ a {
           </ul>
       </div>
     </a>
-</div>
+    </div>
 </body>
 </html>
