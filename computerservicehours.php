@@ -79,7 +79,7 @@ a {
 </style>
 </head>
 <body>
-<div class="box background">
+<div style="padding:5px;padding-top:100px">
   <div class="animation">
   <div class="row" style="grid-column:1/4;grid-row:2">
     <h1 class="blue">HOURS OF OPERATION</h1>
