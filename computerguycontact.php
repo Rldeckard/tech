@@ -98,6 +98,7 @@ input[type="submit"] {
   width: auto;
 }
 </style>
+<title>Deckard Tech | Contact</title>
 </head>
   <body>
     <div style="padding:50px;padding-top:100px">

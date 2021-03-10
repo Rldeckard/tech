@@ -88,6 +88,7 @@ a {
   padding-top:100px;
 }
 </style>
+<title>Deckard Tech | Home</title>
 </head>
 <body>
   <div style="padding:5px;padding-top:100px" class="body">

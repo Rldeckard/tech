@@ -22,6 +22,18 @@
     transform:skew(0deg);
   }
 }
+.col {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
 .col:hover {
   opacity: 1; 
 }
@@ -60,6 +72,10 @@ hr {
   background: inherit;  
   text-align: center;
   width: auto;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
 
 }
 * {
@@ -84,11 +100,12 @@ a {
   text-decoration: none;
 }
 </style>
+<title>Deckard Tech | Pricing</title>
 </head>
 <body>
 <div style="padding:5px;padding-top:100px">
   <div class="row" style="grid-row:1">
-    <h1 class="blue">Comprehensive guide to fair pricing</h1>
+    <h1 class="blue" style="text-align:center">Comprehensive guide to fair pricing</h1>
     <blockquote>Below are the prices listed per visit and service request. Questions and quotes can be requested through the contact tab at the top. Any and all inquires are welcome.</blockquote>
     <br>
     <br>

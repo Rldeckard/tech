@@ -1,11 +1,11 @@
 html {
   font-family: Arial;
   box-sizing: border-box;
-  background-color: white;
+  background-color: black;
 }
 body {
   margin: 0;
-  color: black;
+  color: white;
 }
 .body {
   padding:5px;

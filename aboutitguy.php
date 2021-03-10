@@ -92,6 +92,7 @@ a {
   text-align: reset;
 }
 </style>
+<title>Deckard Tech | About</title>
 </head>
 <body>
 <div style="padding:5px;padding-top:100px">
