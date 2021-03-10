@@ -92,14 +92,26 @@ a {
   text-align: reset;
 }
 </style>
+<title>Deckard Tech | About</title>
 </head>
 <body>
-<div class="box background">
+<div style="padding:5px;padding-top:100px">
   <div class="row" style="grid-column:1/4;grid-row:2">
-    <div class="slide_in"><h1 class="blue">About Me</h1></div>
+    <h1 class="blue">About Me</h1>
+  </div>
+  <div class="row" style="grid-column:1/2;grid-row:4">
+    <div class="LI-profile-badge align-left"
+         data-version="v1"
+         data-size="medium"
+         data-locale="en_US"
+         data-type="horizontal"
+         data-theme="dark"
+         data-vanity="ryanldeckard">
+      <a class="LI-simple-link" href='https://www.linkedin.com/in/ryanldeckard?trk=profile-badge'>Ryan Deckard</a>
+    </div>
   </div>
   <div class="col" style="grid-column:2;grid-row:5">
-   <div class="slide_in">
+   <div >
     <p>My name is Ryan Deckard and I'd love to take a moment to tell you about myself. Computer / Internet work has always been my passion. 
     For the past 6 years I've been pursuing this line of work as a career starting in the Missouri National Guard as a 25B - Information 
     Technology Specialist as well as working at a local internet company in Springfield, MO. My family and I recenlty moved here to 
@@ -108,12 +120,6 @@ a {
     with anything computer related don't hesitate to get in contact with me anyway you feel comfortable. </p>
   </div>
 </div>
-  <div class="row" style="grid-column:2;grid-row:4">
-    <div class="LI-profile-badge align-left"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ryanldeckard"><a class="LI-simple-link" href='https://www.linkedin.com/in/ryanldeckard?trk=profile-badge'>Ryan Deckard</a></div>
-  </div>
-  <div class="row" style="grid-column:2;grid-row:6">
-    <img src="Images/logo-web.jpg" width='300'>
-  </div>
 </div>
 </body>
 </html>

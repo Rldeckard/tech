@@ -4,8 +4,22 @@
 header('X-Frame-Options: DENY');
 header('X-XSS-Protection: 1; mode=block');
 header('X-Content-Type-Options: nosniff');
-header('Strict-Transport-Security: max-age=31536000;');
+header('Strict-Transport-Security: max-age=31536000; includeSubDomains; preload');
 header('Permissions-Policy: geolocation=(self "https://tech.deckardenterprises.com"), microphone=()');
+
+$CSPheader .= "default-src 'self';"; 
+$CSPheader .= "style-src https: 'self' css/Stylesheet.css *.licdn.com *.cloudflare.com *.jquery.com my.setmore.com *.bootstrapcdn.com 'unsafe-inline';";
+$CSPheader .= "font-src https: 'self' css/Stylesheet.com *.cloudflare.com *.jquery.com;";
+$CSPheader .= "script-src https: 'self' 'unsafe-inline' badges.linkedin.com *.licdn.com platform.linkedin.com *.setmore.com www.googletagmanager.com *.googleapis.com *.cloudflare.com *.bootstrapcdn.com;"; 
+$CSPheader .= "connect-src https: www.google-analytics.com;";
+$CSPheader .= "img-src https: 'self' *.setmore.com *.jquery.com *.licdn.com *.cloudflare.com *.googleapis.com;";
+$CSPheader .= "frame-src https: 'self' *.setmore.com;"; 
+$CSPheader .= "base-uri 'self';"; 
+$CSPheader .= "object-src 'none';";
+
+header("Content-Security-Policy: ".$CSPheader);
+header("X-Content-Security-Policy: ".$CSPheader);
+header("X-WebKit-CSP: ".$CSPheader);
 ?>
 <!DOCTYPE html>
 <meta name="referrer" content="origin">
@@ -15,6 +29,16 @@ header('Permissions-Policy: geolocation=(self "https://tech.deckardenterprises.c
 <link href="css/mobile.css" rel="stylesheet">
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+      crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>-->
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0GRDBJPNY"></script>
@@ -27,16 +51,40 @@ header('Permissions-Policy: geolocation=(self "https://tech.deckardenterprises.c
 </script>
 <meta http-equiv="Content-Security-Policy"
       content="default-src 'self';
-               style-src https: 'self' css/Stylesheet.css *.licdn.com *.cloudflare.com *.jquery.com my.setmore.com 'unsafe-inline';
+               style-src https: 'self' css/Stylesheet.css *.licdn.com *.cloudflare.com 
+                                       *.jquery.com my.setmore.com *.bootstrapcdn.com 'unsafe-inline';
                font-src https: 'self' css/Stylesheet.com *.cloudflare.com *.jquery.com;
                script-src https: 'self' 'unsafe-inline' badges.linkedin.com *.licdn.com platform.linkedin.com 
-                                        *.setmore.com www.googletagmanager.com *.googleapis.com;
+                                        *.setmore.com www.googletagmanager.com *.googleapis.com *.cloudflare.com *.bootstrapcdn.com;
                connect-src https: www.google-analytics.com;
                img-src https: 'self' *.setmore.com *.jquery.com *.licdn.com *.cloudflare.com *.googleapis.com;
                frame-src https: 'self' *.setmore.com;
                base-uri 'self';
                object-src 'none'; ">
-<title>Deckard Tech Computer Solutions</title>
+<meta http-equiv="X-Content-Security-Policy"
+      content="default-src 'self';
+               style-src https: 'self' css/Stylesheet.css *.licdn.com *.cloudflare.com
+                                       *.jquery.com my.setmore.com *.bootstrapcdn.com 'unsafe-inline';
+               font-src https: 'self' css/Stylesheet.com *.cloudflare.com *.jquery.com;
+               script-src https: 'self' 'unsafe-inline' badges.linkedin.com *.licdn.com platform.linkedin.com
+                                        *.setmore.com www.googletagmanager.com *.googleapis.com *.cloudflare.com *.bootstrapcdn.com;
+               connect-src https: www.google-analytics.com;
+               img-src https: 'self' *.setmore.com *.jquery.com *.licdn.com *.cloudflare.com *.googleapis.com;
+               frame-src https: 'self' *.setmore.com;
+               base-uri 'self';
+               object-src 'none'; ">
+<meta http-equiv="X-WebKit-CSP"
+      content="default-src 'self';
+               style-src https: 'self' css/Stylesheet.css *.licdn.com *.cloudflare.com
+                                       *.jquery.com my.setmore.com *.bootstrapcdn.com 'unsafe-inline';
+               font-src https: 'self' css/Stylesheet.com *.cloudflare.com *.jquery.com;
+               script-src https: 'self' 'unsafe-inline' badges.linkedin.com *.licdn.com platform.linkedin.com
+                                        *.setmore.com www.googletagmanager.com *.googleapis.com *.cloudflare.com *.bootstrapcdn.com;
+               connect-src https: www.google-analytics.com;
+               img-src https: 'self' *.setmore.com *.jquery.com *.licdn.com *.cloudflare.com *.googleapis.com;
+               frame-src https: 'self' *.setmore.com;
+               base-uri 'self';
+               object-src 'none'; ">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <style>
 

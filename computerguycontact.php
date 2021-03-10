@@ -98,9 +98,10 @@ input[type="submit"] {
   width: auto;
 }
 </style>
+<title>Deckard Tech | Contact</title>
 </head>
   <body>
-    <div class="box background">
+    <div style="padding:50px;padding-top:100px">
       <div class="row" style="grid-column:1/4;grid-row:4">
       <h1 class="blue">Contact Us</h1>
       </div>

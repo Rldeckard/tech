@@ -83,10 +83,15 @@ a {
   text-decoration: none;
   margin-top: 50px;
 }
+.body {
+  padding:5px;
+  padding-top:100px;
+}
 </style>
+<title>Deckard Tech | Home</title>
 </head>
 <body>
-<div class="box background">
+  <div style="padding:5px;padding-top:100px" class="body">
   <div class="row" style="grid-row:3">
     <div style="text-align:left">
     <br>
@@ -114,7 +119,7 @@ a {
   Welcome to my page! I strive to help my neighbors in Summerville and Charleston by providing the best customer experience when it comes to all 
   things tech. Anything from computers to mobile phone service to small business server build outs. Below I have listed a small outline of the 
   services I can provide to you. Of course if there is something you are unsure of or would like to ask about just shoot me a message using the 
-  contact tab above! Thank you for checking out my page and I look forward to hearing from you!
+  contact tab above Thank you for checking out my page and I look forward to hearing from you!
     </p>
   </div>
   <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:5;">
@@ -175,6 +180,6 @@ a {
           </ul>
       </div>
     </a>
-</div>
+    </div>
 </body>
 </html>

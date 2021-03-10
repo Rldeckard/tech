@@ -2,10 +2,10 @@
 <head>
 <?php include('header.php');?>
 <style>
-.slide_in{
+.slide_in_off{
   animation: slideMe 1s ease-in;
 }
-@keyframes slideMe{
+@keyframes slideMeOFF{
   0%{
     transform: skewX(53deg) translateX(-500px);
   }
@@ -21,6 +21,18 @@
   100%{
     transform:skew(0deg);
   }
+}
+.col {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
 }
 .col:hover {
   opacity: 1; 
@@ -60,6 +72,10 @@ hr {
   background: inherit;  
   text-align: center;
   width: auto;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
 
 }
 * {
@@ -84,12 +100,12 @@ a {
   text-decoration: none;
 }
 </style>
+<title>Deckard Tech | Pricing</title>
 </head>
 <body>
-<div class="box background">
-<div class="slide_in">
+<div style="padding:5px;padding-top:100px">
   <div class="row" style="grid-row:1">
-    <h1 class="blue">Comprehensive guide to fair pricing</h1>
+    <h1 class="blue" style="text-align:center">Comprehensive guide to fair pricing</h1>
     <blockquote>Below are the prices listed per visit and service request. Questions and quotes can be requested through the contact tab at the top. Any and all inquires are welcome.</blockquote>
     <br>
     <br>
@@ -106,7 +122,6 @@ a {
         <p>Offering anything your business needs! Changes to a website? Look no further. Managing confusing Microsoft Licenses? Let Me handle that burden. Tired of manually upgrading all the computers in your office? I'd be happy to take that off your hands. Much cheaper than hiring a full time IT staff and much more knowledgeable.</p>
       </div>
     </a>
-</div>
 </div>
 </body>
 </html>

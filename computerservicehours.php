@@ -77,20 +77,21 @@ a {
   text-decoration: none;
 }
 </style>
+<title>Deckard Tech | Hours</title>
 </head>
 <body>
-<div class="box background">
+<div style="padding:5px;padding-top:100px">
   <div class="animation">
   <div class="row" style="grid-column:1/4;grid-row:2">
-    <h1 class="blue">HOURS OF OPERATION</h1>
+    <h1><b>HOURS OF OPERATION</b></h1>
   </div>
   <div class="row" style="grid-column:2;grid-row:3">
-    <h1 class="blue">Week Days</h1>
-    <h4>Working Hours are From: 9AM - 9PM</h4>
+    <h1><b>Week Days</b></h1>
+    <h5>Working Hours are From: 9AM - 9PM</h5>
   </div>
   <div class="row" style="grid-column:2;grid-row:4">
-    <h1 class="blue">Weekends</h1>
-    <h4>Working Hours are From: 9AM - 9PM</h4>
+    <h1><b>Weekends</b></h1>
+    <h5>Working Hours are From: 9AM - 9PM</h5>
   </div>
   <div class="row" style="grid-column:1/4;grid-row:5">
   <ul>

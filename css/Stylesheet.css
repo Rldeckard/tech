@@ -5,7 +5,11 @@ html {
 }
 body {
   margin: 0;
-  color: #ddd;
+  color: white;
+}
+.body {
+  padding:5px;
+  padding-top:100px;
 }
 a:hover {
   opacity: .6
