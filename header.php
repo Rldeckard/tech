@@ -1,39 +1,14 @@
 <?php
 #error_reporting(E_ALL);
 #ini_set('display_errors', 1);
-#@session_start();
-#include('connectdb.php');
-#  if (!isset($_SESSION['username']) || $_SESSION['username'] == '') {
-#    header('Location: login.php');
-#  }
-
-  $time = $_SERVER['REQUEST_TIME'];
-
-/**
-* for a 30 minute timeout, specified in seconds
-*/
-$timeout_duration = 21600;
-
-/**
-* Here we look for the user's LAST_ACTIVITY timestamp. If
-* it's set and indicates our $timeout_duration has passed,
-* blow away any previous $_SESSION data and start a new one.
-*/
-if (isset($_SESSION['LAST_ACTIVITY']) &&
-   ($time - $_SESSION['LAST_ACTIVITY']) > $timeout_duration) {
-    session_unset();
-    session_destroy();
-    session_start();
-    header('Location: login.php');
-}
-
-/**
-* Finally, update LAST_ACTIVITY so that our timeout
-* is based on it and not the user's login time.
-*/
-$_SESSION['LAST_ACTIVITY'] = $time;
+header('X-Frame-Options: DENY');
+header('X-XSS-Protection: 1; mode=block');
+header('X-Content-Type-Options: nosniff');
+header('Strict-Transport-Security: max-age=31536000;');
+header('Permissions-Policy: geolocation=(self "https://tech.deckardenterprises.com"), microphone=()');
 ?>
 <!DOCTYPE html>
+<meta name="referrer" content="origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="Images/logo-web-icon.png">
 <link href="css/Stylesheet.css" rel="stylesheet">
@@ -41,7 +16,6 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script><a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000" href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1"><img border="none" src="https://my.setmore.com/webapp/images/bookappt/Setmore-Book-Now.png" alt="Book an appointment with Deckard Tech Computer Solutions using Setmore" /></a>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0GRDBJPNY"></script>
 <script>
@@ -51,7 +25,17 @@ $_SESSION['LAST_ACTIVITY'] = $time;
 
   gtag('config', 'G-G0GRDBJPNY');
 </script>
-
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+               style-src https: 'self' css/Stylesheet.css *.licdn.com *.cloudflare.com *.jquery.com my.setmore.com 'unsafe-inline';
+               font-src https: 'self' css/Stylesheet.com *.cloudflare.com *.jquery.com;
+               script-src https: 'self' 'unsafe-inline' badges.linkedin.com *.licdn.com platform.linkedin.com 
+                                        *.setmore.com www.googletagmanager.com *.googleapis.com;
+               connect-src https: www.google-analytics.com;
+               img-src https: 'self' *.setmore.com *.jquery.com *.licdn.com *.cloudflare.com *.googleapis.com;
+               frame-src https: 'self' *.setmore.com;
+               base-uri 'self';
+               object-src 'none'; ">
 <title>Deckard Tech Computer Solutions</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <style>
@@ -136,3 +120,9 @@ ul {
     <a class="tablinks" href='mailto:ryan@deckardenterprises.com'><i class="fa fa-envelope"></i></a>
   </div>
 </div>
+<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script>
+<a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000"
+  href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1">
+  <img border="none" src="https://my.setmore.com/webapp/images/bookappt/Setmore-Book-Now.png"
+  alt="Book an appointment with Deckard Tech Computer Solutions using Setmore" />
+</a>

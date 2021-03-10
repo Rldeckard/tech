@@ -93,6 +93,8 @@ a {
   <div style="padding:5px;padding-top:100px" class="body">
   <div class="row" style="grid-row:3">
     <div style="text-align:left">
+    <br>
+    <br>
     <span style="padding:0;margin:5px;font-size:30px"><b>Expert device repair, and troubleshooting.</b></span>
     <br>&nbsp; iPhone screen replacement, 
     <br>&nbsp; Computer Diagnostics, 
