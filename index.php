@@ -17,9 +17,7 @@
 }
 .col:hover {
   opacity: 1; 
-}
-.container {
-  text-align: center;
+  text-decoration: none;
 }
 .col:action {
   box-shadow: 5px 5px 5px 2px  gray;
@@ -39,7 +37,7 @@ hr {
   box-shadow: 1px 1px 1px 1px  #ccc;
 }
 .background {
-  background-image: url("Images/stars.png");
+  background-image: url("Images/iphone-broken.jpg");
   /* Set a specific height */
 
   /* Create the parallax scrolling effect */
@@ -83,103 +81,100 @@ a {
   text-decoration: none;
   margin-top: 50px;
 }
-.body {
-  padding:5px;
-  padding-top:100px;
-}
 </style>
 <title>Deckard Tech | Home</title>
 </head>
 <body>
-  <div style="padding:5px;padding-top:100px" class="body">
-  <div class="row" style="grid-row:3">
-    <div style="text-align:left">
-    <br>
-    <br>
-    <span style="padding:0;margin:5px;font-size:30px"><b>Expert device repair, and troubleshooting.</b></span>
-    <br>&nbsp; iPhone screen replacement, 
-    <br>&nbsp; Computer Diagnostics, 
-    <br>&nbsp; In home device troubleshooting, and much more!
+  <div class="container">
+    <div class="row background">
+<!--      <div class="col-10 text-left">
+        <br><h4>Deckard Tech</h4>
+        Located near Knightsville, serving Summerville<br>and surrounding areas!
+      </div>-->
+    </div>
+    <div class="row justify-content-center" style="padding-top:50px">
+      <div class="col-sm">
+        <div>
+          <img src="Images/computer-repair.jpg" width="200">
+        </div>
+        <br>
+        <div>
+          <img src="Images/iphone-repair.jpg" width="200">
+        </div>
+      </div>
+      <div class="col-lg" style="padding-top:50px;text-align:left">
+        <h2>Expert device repair, and troubleshooting.</h2>
+        iPhone screen replacement, 
+        <br>Computer Diagnostics, 
+        <br>In home device troubleshooting, and much more!
+      </div>
     </div>
     <br>
     <br>
-    <script id="setmore_script" 
-            type="text/javascript" 
-            src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script>
-    <a id="Setmore_button_iframe" 
-       style="float:none" 
-       href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1">
-      <img border="none" 
-           src="https://storage.googleapis.com/setmore-assets/2.0/Images/Integration/book-now-blue.svg" 
-           alt="Book an appointment using Setmore" />
-    </a>
-  </div>
-  <div class="row" style="grid-row:4;text-align:left">
-    <p>
-  Welcome to my page! I strive to help my neighbors in Summerville and Charleston by providing the best customer experience when it comes to all 
-  things tech. Anything from computers to mobile phone service to small business server build outs. Below I have listed a small outline of the 
-  services I can provide to you. Of course if there is something you are unsure of or would like to ask about just shoot me a message using the 
-  contact tab above Thank you for checking out my page and I look forward to hearing from you!
-    </p>
-  </div>
-  <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:5;">
-      <div class="col">
-        <p class="title"><i class="fa fa-mobile fa-5x" ></i><br>Android and Apple iPhones</p><hr><br>
-          <ul>
-            <li>Screen Replacements</li>
-            <li>Back Glass Repair</li>
-            <li>Battery Replacements</li>
-            <li>Diagnostic and Repair</li>
-            <li>Software Upgrades and Diagnostic</li>
-          </ul>
-      </div>
-    </a>
-    <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:6;">
-      <div class="col">
-        <p class="title"><i class="fa fa-laptop fa-5x" ></i><br>Desktops and Laptops</p><hr><br>
-          <ul>
-            <li>Cable Management</li>
-            <li>Computer tower installation</li>
-            <li>Parts Addition/Upgrades</li>
-            <li>Parts diagnostic and repair</li>
-            <li>Custom Computer Builds</li>
-          </ul>
-      </div>
-    </a>
-    <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:7;">
-      <div class="col">
-        <p class="title"><i class="fa fa-code fa-5x" ></i><br><br>Website Design and Automation</p><hr><br>
-          <ul>
-            <li>Basic website design, content assistance</li>
-            <li>Website Updates</li>
-            <li>Powerful timesaving automation</li>
-            <li>Data gathering and presenting</li>
-            <li>Much, much, more! You think it, we build it</li>
-          </ul>
-      </div>
-    </a>
-    <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:8;">
-      <div class="col" style="grid-column:2;grid-row:3;">
-        <p class="title"><i class="fa fa-cogs fa-5x" ></i><br><br>Software</p><hr><br>
-          <ul>
-            <li>Software Tune ups</li>
-            <li>Operating system upgrades</li>
-            <li>Virus removal</li>
-            <li>Program installation and removal</li>
-          </ul>
-      </div>
-    </a>
-    <a href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1" id="Setmore_button_iframe" style="grid-row:9;">
-      <div class="col">
-        <p class="title"><i class="fa fa-wifi fa-5x" ></i><br>Internet</p><hr><br>
-          <ul>
-            <li>Network installation and setup</li>
-            <li>Router / modem diagnostics</li>
-            <li>Network troubleshooting</li>
-            <li>Firmware upgrades</li>
-          </ul>
-      </div>
-    </a>
+    <br>
+    <div class="row justify-content-center mt-4 mb-5">
+      <h1 style="font-size:80px;">Why choose Deckard Tech?</h1>
     </div>
-</body>
+    <div class="row justify-content-center mt-5">
+      <h3>Compassionate Customer Service</h3>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-lg col-md">
+        <br><img src="Images/cs-review-1.png" class="img-fluid">
+      </div>
+      <div class="col-lg col-md">
+        <br><img src="Images/cs-review-2.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <h3>Next Level Diagnostics</h3>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <br><img src="Images/skill-review.png" class="img-fluid">
+    </div>
+    <div class="row justify-content-center mt-5">
+      <h3>30 Day Guarentee</h3>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-lg-8 col-md">
+        <p class="text-left">
+        With any service performed you have 30 days of one-on-one direct assistance to our knowledgeable 
+        staff through text or a scheduled phone call. No need to worry if you forget the list of steps given to you by the 
+        technician. We're always here to make sure you're the most empowered to use your new Tech!
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <h2 class="blue">Ready to Get Started?</h2>
+    </div>
+    <div class="row justify-content-center">
+        Click Book Now below to review a list of services and pricing.
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg col-md">
+      </div>
+      <div class="col-lg col-md mt-5">
+        <script id="setmore_script" 
+                type="text/javascript" 
+                src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script>
+        <a id="Setmore_button_iframe" 
+           style="float:none" 
+           href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1">
+          <img border="none" 
+               src="https://storage.googleapis.com/setmore-assets/2.0/Images/Integration/book-now-blue.svg" 
+               alt="Book an appointment using Setmore" />
+        </a>
+      </div>
+      <div class="col-lg col-md mt-5">
+        <a href="tel:8439004690" class="btn btn-secondary p-2 pr-3 pl-3">Call</a>
+      </div>
+      <div class="col-lg col-md">
+      </div>
+    </div>
+    <div class="row justify-content-center mt-5 mb-5">
+      <img src="Images/black-white-phone.jpg"  class="img-fluid">
+    </div>
+    <br>
+    <br>
+  </body>
 </html>

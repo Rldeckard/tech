@@ -95,14 +95,15 @@ a {
 <title>Deckard Tech | About</title>
 </head>
 <body>
-<div style="padding:5px;padding-top:100px">
-  <div class="row" style="grid-column:1/4;grid-row:2">
+<div class="container">
+  <br>
+  <div row="row mt-4">
     <h1 class="blue">About Me</h1>
   </div>
-  <div class="row" style="grid-column:1/2;grid-row:4">
-    <div class="LI-profile-badge align-left"
+  <div class="row mt-5 justify-content-center">
+    <div class="LI-profile-badge text-left"
          data-version="v1"
-         data-size="medium"
+         data-size="large"
          data-locale="en_US"
          data-type="horizontal"
          data-theme="dark"
@@ -110,7 +111,7 @@ a {
       <a class="LI-simple-link" href='https://www.linkedin.com/in/ryanldeckard?trk=profile-badge'>Ryan Deckard</a>
     </div>
   </div>
-  <div class="col" style="grid-column:2;grid-row:5">
+  <div class="row mt-5">
    <div >
     <p>My name is Ryan Deckard and I'd love to take a moment to tell you about myself. Computer / Internet work has always been my passion. 
     For the past 6 years I've been pursuing this line of work as a career starting in the Missouri National Guard as a 25B - Information 

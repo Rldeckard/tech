@@ -74,7 +74,6 @@ li {
 }
 a {
   text-decoration: none;
-  color: #ddd;
 }
 form {
   display: grid;
@@ -101,7 +100,7 @@ input[type="submit"] {
 <title>Deckard Tech | Contact</title>
 </head>
   <body>
-    <div style="padding:50px;padding-top:100px">
+    <div class="container">
       <div class="row" style="grid-column:1/4;grid-row:4">
       <h1 class="blue">Contact Us</h1>
       </div>
@@ -112,12 +111,12 @@ input[type="submit"] {
           <input type="text" style="grid-column:2;grid-row:1" name="lastName" placeholder="Smith">
           <input type="text" style="grid-column:1/3;grid-row:2" name="emailTo" placeholder="user@gmail.com">
           <textarea  style="grid-column:1/3;grid-row:3" name="emailBody" placeholder="Tell me a little about your situation"></textarea>
-          <input style="grid-column:1/3;grid-row:4" type="submit" name="submit" value="Submit Request">
+          <input style="grid-column:1/3;grid-row:4;color:#333" type="submit" name="submit" value="Submit Request">
         </form>
       </div>
       <div style="grid-column:2;grid-row:6;text-align:left">
       <p>Email Address</p>
-      <a href="mailto:consult@deckardenterprises.com">consult@deckardenterprises.com</a>
+      <a class="blue" href="mailto:consult@deckardenterprises.com">consult@deckardenterprises.com</a>
       <br>
       <br>
       <p>Telephone Number<br><br>(843) 900-4690</p><br>

@@ -1,21 +1,19 @@
 html {
   font-family: Arial;
+  font-size: 20px;
   box-sizing: border-box;
-  background-color: black;
+  background-color: white;
 }
 body {
   margin: 0;
-  color: white;
+  color: black;
 }
 .body {
-  padding:5px;
   padding-top:100px;
 }
 a:hover {
   opacity: .6
-}
-.empty_row {
-  width: 25%;
+  text-decoration: none;
 }
  /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=password], input[type=number], input[type=email],
@@ -78,13 +76,16 @@ input[type=submit]:hover {
   padding-top: 150px;
 }
 .col {
-  background-color: rgba(255, 255, 255, .3);
-  height: auto;
-  padding: 15px;
-  margin: 2%;
   border-radius: 1%;
-  color: #eee;
+  margin-bottom: 50px;
+  border: 2px solid #aaa;
+  box-shadow: 5px 8px 5px;
+  color: #666;
 
+}
+.col:hover {
+  box-shadow: 5px 1px 5px;
+  text-decoration: none;
 }
 /* Floating column for labels: 25% width */
 .col-25 {

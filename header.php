@@ -7,39 +7,46 @@ header('X-Content-Type-Options: nosniff');
 header('Strict-Transport-Security: max-age=31536000; includeSubDomains; preload');
 header('Permissions-Policy: geolocation=(self "https://tech.deckardenterprises.com"), microphone=()');
 
+
+
+##########!!!!!!!!!!!!DO NOT USE NEW LINES OR CARRIAGE RETURNS IN THE BELOW STRINGS!!!!!!!!!!!!##############
 $CSPheader .= "default-src 'self';"; 
 $CSPheader .= "style-src https: 'self' css/Stylesheet.css *.licdn.com *.cloudflare.com *.jquery.com my.setmore.com *.bootstrapcdn.com 'unsafe-inline';";
 $CSPheader .= "font-src https: 'self' css/Stylesheet.com *.cloudflare.com *.jquery.com;";
 $CSPheader .= "script-src https: 'self' 'unsafe-inline' badges.linkedin.com *.licdn.com platform.linkedin.com *.setmore.com www.googletagmanager.com *.googleapis.com *.cloudflare.com *.bootstrapcdn.com;"; 
 $CSPheader .= "connect-src https: www.google-analytics.com;";
-$CSPheader .= "img-src https: 'self' *.setmore.com *.jquery.com *.licdn.com *.cloudflare.com *.googleapis.com;";
+$CSPheader .= "img-src https: data: 'self' *.w3.org *.setmore.com *.jquery.com *.licdn.com *.cloudflare.com *.googleapis.com;";
 $CSPheader .= "frame-src https: 'self' *.setmore.com;"; 
 $CSPheader .= "base-uri 'self';"; 
 $CSPheader .= "object-src 'none';";
-
+##########!!!!!!!!!!!!DO NOT USE NEW LINES OR CARRIAGE RETURNS IN THE BELOW STRINGS!!!!!!!!!!!!##############
 header("Content-Security-Policy: ".$CSPheader);
 header("X-Content-Security-Policy: ".$CSPheader);
 header("X-WebKit-CSP: ".$CSPheader);
 ?>
 <!DOCTYPE html>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>
+<link rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+      crossorigin="anonymous">
 <meta name="referrer" content="origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="Images/logo-web-icon.png">
 <link href="css/Stylesheet.css" rel="stylesheet">
 <link href="css/mobile.css" rel="stylesheet">
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--<link rel="stylesheet" 
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-      crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
         crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
-        crossorigin="anonymous"></script>-->
+        crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0GRDBJPNY"></script>
 <script>
@@ -49,43 +56,8 @@ header("X-WebKit-CSP: ".$CSPheader);
 
   gtag('config', 'G-G0GRDBJPNY');
 </script>
-<meta http-equiv="Content-Security-Policy"
-      content="default-src 'self';
-               style-src https: 'self' css/Stylesheet.css *.licdn.com *.cloudflare.com 
-                                       *.jquery.com my.setmore.com *.bootstrapcdn.com 'unsafe-inline';
-               font-src https: 'self' css/Stylesheet.com *.cloudflare.com *.jquery.com;
-               script-src https: 'self' 'unsafe-inline' badges.linkedin.com *.licdn.com platform.linkedin.com 
-                                        *.setmore.com www.googletagmanager.com *.googleapis.com *.cloudflare.com *.bootstrapcdn.com;
-               connect-src https: www.google-analytics.com;
-               img-src https: 'self' *.setmore.com *.jquery.com *.licdn.com *.cloudflare.com *.googleapis.com;
-               frame-src https: 'self' *.setmore.com;
-               base-uri 'self';
-               object-src 'none'; ">
-<meta http-equiv="X-Content-Security-Policy"
-      content="default-src 'self';
-               style-src https: 'self' css/Stylesheet.css *.licdn.com *.cloudflare.com
-                                       *.jquery.com my.setmore.com *.bootstrapcdn.com 'unsafe-inline';
-               font-src https: 'self' css/Stylesheet.com *.cloudflare.com *.jquery.com;
-               script-src https: 'self' 'unsafe-inline' badges.linkedin.com *.licdn.com platform.linkedin.com
-                                        *.setmore.com www.googletagmanager.com *.googleapis.com *.cloudflare.com *.bootstrapcdn.com;
-               connect-src https: www.google-analytics.com;
-               img-src https: 'self' *.setmore.com *.jquery.com *.licdn.com *.cloudflare.com *.googleapis.com;
-               frame-src https: 'self' *.setmore.com;
-               base-uri 'self';
-               object-src 'none'; ">
-<meta http-equiv="X-WebKit-CSP"
-      content="default-src 'self';
-               style-src https: 'self' css/Stylesheet.css *.licdn.com *.cloudflare.com
-                                       *.jquery.com my.setmore.com *.bootstrapcdn.com 'unsafe-inline';
-               font-src https: 'self' css/Stylesheet.com *.cloudflare.com *.jquery.com;
-               script-src https: 'self' 'unsafe-inline' badges.linkedin.com *.licdn.com platform.linkedin.com
-                                        *.setmore.com www.googletagmanager.com *.googleapis.com *.cloudflare.com *.bootstrapcdn.com;
-               connect-src https: www.google-analytics.com;
-               img-src https: 'self' *.setmore.com *.jquery.com *.licdn.com *.cloudflare.com *.googleapis.com;
-               frame-src https: 'self' *.setmore.com;
-               base-uri 'self';
-               object-src 'none'; ">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <style>
 
 /* Style the tab */
@@ -152,7 +124,35 @@ ul {
 }
 </style>
 <!--<img src="Images/logo-web.jpg" width='250' alt="Deckard Tech">-->
-<div class="tab">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="Images/logo-web-transparent.png" width="200"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                                                                      aria-controls="navbarNav" 
+                                                                      aria-expanded="false" 
+                                                                      aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php">Start Here <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="fairtechpricing.php">Brass Tacks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="computerservicehours.php">When do we work?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutitguy.php">Our Mission</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="computerguycontact.php">Ask me Anything!</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--<div class="tab">
   <div style="float:left">
     <button onclick="location.href='index.php'"><img src="Images/logo-web-transparent.png" width="45"></button>
     <button class="tablinks" onclick="location.href='index.php'">Start Here</button>
@@ -167,7 +167,7 @@ ul {
     <a class="tablinks" href='https://www.linkedin.com/in/ryanldeckard/' target="_blank"><i class="fa fa-linkedin"></i></a>
     <a class="tablinks" href='mailto:ryan@deckardenterprises.com'><i class="fa fa-envelope"></i></a>
   </div>
-</div>
+</div>-->	
 <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script>
 <a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000"
   href="https://my.setmore.com/bookingpage/56bf8c6c-a3fa-4241-93ca-f95966986aa1">

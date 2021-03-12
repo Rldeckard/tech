@@ -103,10 +103,10 @@ a {
 <title>Deckard Tech | Pricing</title>
 </head>
 <body>
-<div style="padding:5px;padding-top:100px">
-  <div class="row" style="grid-row:1">
+<div class="container">
+  <div>
     <h1 class="blue" style="text-align:center">Comprehensive guide to fair pricing</h1>
-    <blockquote>Below are the prices listed per visit and service request. Questions and quotes can be requested through the contact tab at the top. Any and all inquires are welcome.</blockquote>
+    <p>Below are the prices listed per visit and service request. Questions and quotes can be requested through the contact tab at the top. Any and all inquires are welcome.</p>
     <br>
     <br>
   </div>

@@ -7,17 +7,12 @@
     padding-right: 20%;
   }*/
   input[type=text], input[type=password], input[type=number], select, select option,
-  textarea, input[type=submit] {
+  textarea,  {
     height: 7%;
   }
-  #old_job {
-    width: 48%;
-  }
-  #new_job {
-    width: 50%;
-  }
-  #new_rem {
-    padding-right: 9%;
+  input[type=submit] {
+    padding: 20px 50px;
+    
   }
   @media screen and (max-width: 850px) {
   .col-25, .col-75, input[type=submit] {
@@ -45,44 +40,16 @@
     padding: 20;
     padding-bottom: 100px;
   }
-  #new_qty {
-  width: 22%;
-  float: left;
-  padding-left: 10px;
-}
-  #remove {
-  margin-bottom: 34px;
-}
-  #old_qty {
-  width: 25%; 
-} 
-  #x {
-  padding-right: 80px;	
-}
-#old_job {
-  width: 70%;
-}
-#new_job {
-  width: 60%;
-}
-@media screen and (max-width: 550px) {
-  #new_job {
-    width: 54%;
-  }
-  @media screen and (max-width: 350px) {
-  #new_job {
-    width: 45%;
-  }
-
-}
 }
 #col-25 {
   display: none;
 }
   input[type=text], input[type=password], input[type=number], select, select option,
-textarea, input[type=submit] {
+textarea {
     height: 7%;
   }  
+  input[type=submit] {
+  }
   
 }
 }
