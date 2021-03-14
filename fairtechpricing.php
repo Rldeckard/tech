@@ -50,13 +50,13 @@ ul {
   list-style-type: square;
   list-style-position: inside;
 }
-hr {
+/*hr {
   margin-left: 20px;
   margin-right: 20px;
   color: white;
   border: 0;
   box-shadow: 1px 1px 1px 1px  #ccc;
-}
+}*/
 .background {
   background-image: url("Images/stars.png");
   /* Set a specific height */
@@ -78,9 +78,9 @@ hr {
   
 
 }
-* {
+/** {
   box-sizing: border-box;
-}
+}*/
 .blue {
   color: #3A96B8;
   font-weight: normal;
@@ -100,28 +100,78 @@ a {
   text-decoration: none;
 }
 </style>
-<title>Deckard Tech | Pricing</title>
+<title>Deckard Tech Computer Solutions Pricing Guide</title>
 </head>
 <body>
 <div class="container">
   <div>
     <h1 class="blue" style="text-align:center">Comprehensive guide to fair pricing</h1>
-    <p>Below are the prices listed per visit and service request. Questions and quotes can be requested through the contact tab at the top. Any and all inquires are welcome.</p>
+    <p>Below are the prices listed per visit and service request. Questions and quotes can be requested through 
+    the contact tab at the top. Any and all inquires are welcome.</p>
     <br>
     <br>
   </div>
-    <a href="computerguycontact.php" style="grid-row:2;">
-      <div class="col">
+  <div class="row">
+      <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
         <p><i class="fa fa-home fa-5x" ></i><br><br>Residential Service - $50 per Hour</p><hr><br>
-        <p>Will cover most residential jobs. Slow computer repair to Wi-Fi replacement all for $50, and can typically be done in less than an hour! </p>
+        <p>Will cover most residential jobs. Slow computer repair to Wi-Fi replacement all for $50, and can 
+        typically be done in less than an hour! </p>
       </div>
-    </a>
-    <a href="computerguycontact.php" style="grid-row:3;">
-      <div class="col">
+      <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
         <p><i class="fa fa-server fa-5x" ></i><br><br>Business Service - $75 per Hour</p><hr><br>
-        <p>Offering anything your business needs! Changes to a website? Look no further. Managing confusing Microsoft Licenses? Let Me handle that burden. Tired of manually upgrading all the computers in your office? I'd be happy to take that off your hands. Much cheaper than hiring a full time IT staff and much more knowledgeable.</p>
+        <p>Offering anything your business needs! Changes to a website? Look no further. Managing confusing Microsoft Licenses? 
+        Let Me handle that burden. Tired of manually upgrading all the computers in your office? I'd be happy to take that off your hands. Much cheaper than hiring a full time IT staff and much more knowledgeable.</p>
       </div>
-    </a>
+      <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
+        <p class="title text-center"><i class="fa fa-mobile fa-5x" ></i><br>Android and Apple iPhones</p><hr><br>
+          <ul>
+            <li>Screen Replacements</li>
+            <li>Back Glass Repair</li>
+            <li>Battery Replacements</li>
+            <li>Diagnostic and Repair</li>
+            <li>Software Upgrades and Diagnostic</li>
+          </ul>
+      </div>
+      <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
+        <p class="title text-center"><i class="fa fa-laptop fa-5x" ></i><br>Desktops and Laptops</p><hr><br>
+          <ul>
+            <li>Cable Management</li>
+            <li>Computer tower installation</li>
+            <li>Parts Addition/Upgrades</li>
+            <li>Parts diagnostic and repair</li>
+            <li>Custom Computer Builds</li>
+          </ul>
+      </div>
+      <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
+        <p class="title text-center"><i class="fa fa-code fa-5x" ></i><br><br>Website Design and Automation</p><hr><br>
+          <ul>
+            <li>Basic website design, content assistance</li>
+            <li>Website Updates</li>
+            <li>Powerful timesaving automation</li>
+            <li>Data gathering and presenting</li>
+            <li>Much, much, more! You think it, we build it</li>
+          </ul>
+      </div>
+      <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
+        <p class="title text-center"><i class="fa fa-cogs fa-5x" ></i><br><br>Software</p><hr><br>
+          <ul>
+            <li>Software Tune ups</li>
+            <li>Operating system upgrades</li>
+            <li>Virus removal</li>
+            <li>Program installation and removal</li>
+          </ul>
+      </div>
+      <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
+        <p class="title text-center"><i class="fa fa-wifi fa-5x" ></i><br>Internet</p><hr><br>
+          <ul>
+            <li>Network installation and setup</li>
+            <li>Router / modem diagnostics</li>
+            <li>Network troubleshooting</li>
+            <li>Firmware upgrades</li>
+          </ul>
+      </div>
+    </div>
+  </div>
 </div>
 </body>
 </html>

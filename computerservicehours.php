@@ -77,7 +77,7 @@ a {
   text-decoration: none;
 }
 </style>
-<title>Deckard Tech | Hours</title>
+<title>Deckard Tech Computer Solutions Hours of Operation</title>
 </head>
 <body>
 <div class="container animation">

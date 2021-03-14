@@ -15,6 +15,13 @@ a:hover {
   opacity: .6
   text-decoration: none;
 }
+.r-180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
  /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=password], input[type=number], input[type=email],
  select, select option, textarea {
@@ -76,11 +83,11 @@ input[type=submit]:hover {
   padding-top: 150px;
 }
 .col {
-  margin: 20px;
   border-radius: 1%;
+  margin: 10px;
   border: 2px solid #aaa;
   box-shadow: 5px 8px 5px;
-  color: #666;
+  color: black;
 
 }
 .col:hover {

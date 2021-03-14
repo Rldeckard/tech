@@ -2,7 +2,7 @@
 <head>
 <?php include('header.php');?>
 <style>
-.row, .col {
+.col {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -82,27 +82,20 @@ a {
   margin-top: 50px;
 }
 </style>
-<title>Deckard Tech | Home</title>
+<title>Deckard Tech Computer Solutions and iPhone Repair</title>
 </head>
 <body>
   <div class="container">
-    <div class="row background">
-<!--      <div class="col-10 text-left">
-        <br><h4>Deckard Tech</h4>
-        Located near Knightsville, serving Summerville<br>and surrounding areas!
-      </div>-->
-    </div>
     <div class="row justify-content-center" style="padding-top:50px">
-      <div class="col-sm">
-        <div>
+      <div class="col-sm col-lg justify-content-center">
+        <div class="col-lg col-sm mt-3">
           <img src="Images/computer-repair.jpg" width="200">
         </div>
-        <br>
-        <div>
+        <div class="col-lg col-sm mt-3">
           <img src="Images/iphone-repair.jpg" width="200">
         </div>
       </div>
-      <div class="col-lg" style="padding-top:50px;text-align:left">
+      <div class="col-lg text-left" style="padding-top:50px;">
         <h2>Expert device repair, and troubleshooting.</h2>
         iPhone screen replacement, 
         <br>Computer Diagnostics, 
@@ -120,17 +113,17 @@ a {
     </div>
     <div class="row justify-content-center mt-5">
       <div class="col-lg col-md">
-        <br><img src="Images/cs-review-1.png" class="img-fluid">
+        <br><img src="Images/cs-review-1.png" class="img-fluid" loading="lazy">
       </div>
       <div class="col-lg col-md">
-        <br><img src="Images/cs-review-2.png" class="img-fluid">
+        <br><img src="Images/cs-review-2.png" class="img-fluid" loading="lazy">
       </div>
     </div>
     <div class="row justify-content-center mt-5">
       <h3>Next Level Diagnostics</h3>
     </div>
     <div class="row justify-content-center mt-5">
-      <br><img src="Images/skill-review.png" class="img-fluid">
+      <br><img src="Images/skill-review.png" class="img-fluid" loading="lazy">
     </div>
     <div class="row justify-content-center mt-5">
       <h3>30 Day Guarentee</h3>
@@ -138,7 +131,7 @@ a {
     <div class="row justify-content-center mt-5">
       <div class="col-lg-8 col-md">
         <p class="text-left">
-        With any service performed you have 30 days of one-on-one direct assistance to our knowledgeable 
+        With any service performed you have 30 days of one-on-one direct access to our knowledgeable 
         staff through text or a scheduled phone call. No need to worry if you forget the list of steps given to you by the 
         technician. We're always here to make sure you're the most empowered to use your new Tech!
         </p>
@@ -172,9 +165,10 @@ a {
       </div>
     </div>
     <div class="row justify-content-center mt-5 mb-5">
-      <img src="Images/black-white-phone.jpg"  class="img-fluid">
+      <img src="Images/black-white-phone.jpg"  class="img-fluid" loading="lazy">
     </div>
     <br>
     <br>
+    
   </body>
 </html>

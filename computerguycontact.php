@@ -97,7 +97,7 @@ input[type="submit"] {
   width: auto;
 }
 </style>
-<title>Deckard Tech | Contact</title>
+<title>Deckard Tech Computer Solutions - Contact a Specialist Today!</title>
 </head>
   <body>
     <div class="container">
