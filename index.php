@@ -103,6 +103,52 @@ a {
       </div>
     </div>
     <br>
+    <div class="row justify-content-center mt-4 mb-5">
+      <h1>Popular Services</h1>
+    </div>
+    <div class="row justify-content-center mt-4 mb-5">
+      <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <p class="title text-center"><i class="fa fa-mobile fa-5x" ></i><br>iPhone 6/6s/6 Plus Screen Replacement</p>
+        <hr><br>
+        $90	
+      </div>
+      <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <p class="title text-center"><i class="fa fa-mobile fa-5x" ></i><br>iPhone 7/7 Plus Screen Replacement</p>
+        <hr><br>
+        $90
+      </div>
+      <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <p class="title text-center"><i class="fa fa-mobile fa-5x" ></i><br>iPhone 8/8 Plus Screen Replacement</p>
+        <hr><br>
+        $90
+      </div>
+      <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <p class="title text-center"><i class="fa fa-laptop fa-5x" ></i><br>Slow Computer Diagnostics</p>
+        <hr><br>
+        $50
+      </div>
+      <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <p class="title text-center"><i class="fa fa-laptop fa-5x" ></i><br>Hard Drive Replacement</p>
+        <hr><br>
+        Starting at $80
+      </div>
+      <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <p class="title text-center"><i class="fa fa-laptop fa-5x" ></i><br>Computer Upgrades</p>
+        <hr><br>
+        Starting at $80
+      </div>
+      <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <p class="title text-center"><i class="fa fa-desktop fa-5x" ></i><br>Gaming Computer Upgrades and Diagnostics</p>
+        <hr><br>
+        Starting at $75
+      </div>
+      <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <p class="title text-center"><i class="fa fa-print fa-5x" ></i><br>Printer Diagnostics</p>
+        <hr><br>
+        Starting at $50
+      </div>
+    </div>
+    
     <br>
     <br>
     <div class="row justify-content-center mt-4 mb-5">
