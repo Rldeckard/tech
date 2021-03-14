@@ -716,3 +716,60 @@ Processing '/etc/joe/joerc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/joerc
+
+*** These modified files were found in JOE when it aborted on Fri Mar 12 12:31:32 2021
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+zli
+zlib
+openssl
+zlib
+zlib
+html
+
+*** File '(Unnamed)'
+header.php
+header.php
+header.php
+header.php
+header.php
+header.php
+index.php
+index.php
+header.php
+header.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+index.php
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc

@@ -77,20 +77,19 @@ a {
   text-decoration: none;
 }
 </style>
-<title>Deckard Tech | Hours</title>
+<title>Deckard Tech Computer Solutions Hours of Operation</title>
 </head>
 <body>
-<div style="padding:5px;padding-top:100px">
-  <div class="animation">
-  <div class="row" style="grid-column:1/4;grid-row:2">
+<div class="container animation">
+  <div style="grid-column:1/4;grid-row:2;padding-bottom:20px">
     <h1><b>HOURS OF OPERATION</b></h1>
   </div>
-  <div class="row" style="grid-column:2;grid-row:3">
-    <h1><b>Week Days</b></h1>
+  <div style="grid-column:2;grid-row:3;padding-bottom:20px">
+    <h2><b>Week Days</b></h2>
     <h5>Working Hours are From: 9AM - 9PM</h5>
   </div>
-  <div class="row" style="grid-column:2;grid-row:4">
-    <h1><b>Weekends</b></h1>
+  <div style="grid-column:2;grid-row:4;padding-bottom:20px">
+    <h2><b>Weekends</b></h2>
     <h5>Working Hours are From: 9AM - 9PM</h5>
   </div>
   <div class="row" style="grid-column:1/4;grid-row:5">
@@ -101,7 +100,6 @@ a {
     <li>If no one is available by phone, or your inquiry needs addressed outside of working hours, leave a voicemail or submit a ticket through the email listed in the contact tab at the top.</li>
   </ul>
   </div>
-</div>
 </div>
 </body>
 </html>
