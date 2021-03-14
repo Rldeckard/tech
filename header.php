@@ -64,6 +64,16 @@ header("X-WebKit-CSP: ".$CSPheader);
 
   gtag('config', 'G-G0GRDBJPNY');
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG7R2DXW7G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LG7R2DXW7G');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" async defer></script>-->
 
 <style>

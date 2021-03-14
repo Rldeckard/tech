@@ -122,6 +122,7 @@ a {
         <p>Offering anything your business needs! Changes to a website? Look no further. Managing confusing Microsoft Licenses? 
         Let Me handle that burden. Tired of manually upgrading all the computers in your office? I'd be happy to take that off your hands. Much cheaper than hiring a full time IT staff and much more knowledgeable.</p>
       </div>
+      <!--<iframe src="https://deckardtechcomputersolutions.setmore.com" scrolling="yes" width="100%" height="100%" frameborder="0"></iframe>-->
       <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
         <p class="title text-center"><i class="fa fa-mobile fa-5x" ></i><br>Android and Apple iPhones</p><hr><br>
           <ul>
