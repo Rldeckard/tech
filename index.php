@@ -86,20 +86,22 @@ a {
 </head>
 <body>
   <div class="container">
-    <div class="row justify-content-center" style="padding-top:50px">
-      <div class="col-sm col-lg justify-content-center">
-        <div class="col-lg col-sm mt-3">
-          <img src="Images/computer-repair.jpg" width="200">
-        </div>
-        <div class="col-lg col-sm mt-3">
-          <img src="Images/iphone-repair.jpg" width="200">
+    <div class="row justify-content-center">
+      <div class="col-lg justify-content-center" style="padding-top:50px;">
+        <div class="text-left">
+          <h2>Expert device repair, and troubleshooting.</h2>
+          iPhone screen replacement,
+          <br>Computer Diagnostics,
+          <br>In home device troubleshooting, and much more!
         </div>
       </div>
-      <div class="col-lg text-left" style="padding-top:50px;">
-        <h2>Expert device repair, and troubleshooting.</h2>
-        iPhone screen replacement, 
-        <br>Computer Diagnostics, 
-        <br>In home device troubleshooting, and much more!
+      <div class="col-sm col-lg justify-content-center mt-2">
+        <div class="col-lg col-sm mt-3">
+          <img src="Images/computer-repair.webp" width="200">
+        </div>
+        <div class="col-lg col-sm mt-3">
+          <img src="Images/iphone-repair.webp" width="200">
+        </div>
       </div>
     </div>
     <br>
@@ -108,44 +110,60 @@ a {
     </div>
     <div class="row justify-content-center mt-4 mb-5">
       <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <a href="summerville-sc/services-near-me/iphone-repair-near-me/iphone-6-screen-replacement.php">
         <p class="title text-center"><i class="fa fa-mobile fa-5x" ></i><br>iPhone 6/6s/6 Plus Screen Replacement</p>
         <hr><br>
         $90	
+        </a>
       </div>
       <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <a href="summerville-sc/services-near-me/iphone-repair-near-me/iphone-7-screen-replacement.php">
         <p class="title text-center"><i class="fa fa-mobile fa-5x" ></i><br>iPhone 7/7 Plus Screen Replacement</p>
         <hr><br>
         $90
+        </a>
       </div>
       <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <a href="summerville-sc/services-near-me/iphone-repair-near-me/iphone-8-screen-replacement.php">
         <p class="title text-center"><i class="fa fa-mobile fa-5x" ></i><br>iPhone 8/8 Plus Screen Replacement</p>
         <hr><br>
         $90
+        </a>
       </div>
       <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <a href="summerville-sc/services-near-me/computer-repair-near-me/index.php">
         <p class="title text-center"><i class="fa fa-laptop fa-5x" ></i><br>Slow Computer Diagnostics</p>
         <hr><br>
         $50
+        </a>
       </div>
       <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <a href="summerville-sc/services-near-me/computer-repair-near-me/index.php">
         <p class="title text-center"><i class="fa fa-laptop fa-5x" ></i><br>Hard Drive Replacement</p>
         <hr><br>
         Starting at $80
+        </a>
       </div>
       <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <a href="summerville-sc/services-near-me/computer-repair-near-me/gaming-computer-repair.php">
         <p class="title text-center"><i class="fa fa-laptop fa-5x" ></i><br>Computer Upgrades</p>
         <hr><br>
         Starting at $80
+        </a>
       </div>
       <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <a href="summerville-sc/services-near-me/computer-repair-near-me/gaming-computer-repair.php">
         <p class="title text-center"><i class="fa fa-desktop fa-5x" ></i><br>Gaming Computer Upgrades and Diagnostics</p>
         <hr><br>
         Starting at $75
+        </a>
       </div>
       <div class="col col-12 col-sm-5 col-md-5 col-lg-3 mx-sm-1 pb-3 mt-3">
+        <a href="summerville-sc/services-near-me/printer-repair-near-me/index.php">
         <p class="title text-center"><i class="fa fa-print fa-5x" ></i><br>Printer Diagnostics</p>
         <hr><br>
         Starting at $50
+        </a>
       </div>
     </div>
     
@@ -159,20 +177,20 @@ a {
     </div>
     <div class="row justify-content-center mt-5">
       <div class="col-lg col-md">
-        <br><img src="Images/cs-review-1.png" class="img-fluid" loading="lazy">
+        <br><img src="Images/cs-review-1.webp" class="img-fluid" loading="lazy">
       </div>
       <div class="col-lg col-md">
-        <br><img src="Images/cs-review-2.png" class="img-fluid" loading="lazy">
+        <br><img src="Images/cs-review-2.webp" class="img-fluid" loading="lazy">
       </div>
     </div>
     <div class="row justify-content-center mt-5">
       <h3>Next Level Diagnostics</h3>
     </div>
     <div class="row justify-content-center mt-5">
-      <br><img src="Images/skill-review.png" class="img-fluid" loading="lazy">
+      <br><img src="Images/skill-review.webp" class="img-fluid" loading="lazy">
     </div>
     <div class="row justify-content-center mt-5">
-      <h3>30 Day Guarentee</h3>
+      <h3>30 Day Guarantee</h3>
     </div>
     <div class="row justify-content-center mt-5">
       <div class="col-lg-8 col-md">
@@ -192,7 +210,7 @@ a {
     <div class="row justify-content-center">
       <div class="col-lg col-md">
       </div>
-      <div class="col-lg col-md mt-5">
+      <div class="col-lg col-md col-xs-12 mt-5">
         <script id="setmore_script" 
                 type="text/javascript" 
                 src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script>
@@ -204,17 +222,20 @@ a {
                alt="Book an appointment using Setmore" />
         </a>
       </div>
-      <div class="col-lg col-md mt-5">
-        <a href="tel:8439004690" class="btn btn-secondary p-2 pr-3 pl-3">Call</a>
+      <div class="col-lg col-xs-12 col-md-6 mt-5">
+        <a href="tel:8439004690" class="btn btn-secondary p-2 px-4"><i class="fa fa-phone"></i></a>
+        <a href="sms:8439004690" class="btn btn-secondary p-2 px-4"><i class="fa fa-comment"></i></a>
       </div>
       <div class="col-lg col-md">
       </div>
     </div>
     <div class="row justify-content-center mt-5 mb-5">
-      <img src="Images/black-white-phone.jpg"  class="img-fluid" loading="lazy">
+      <img src="Images/black-white-phone.webp"  height="60px" width="80%" loading="lazy">
     </div>
     <br>
     <br>
-    
   </body>
+  <footer class="bg-dark expand-footer justify-content-center">
+    <?php include("footer.php"); ?>
+  </footer>
 </html>

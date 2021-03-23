@@ -92,7 +92,7 @@ a {
   text-align: reset;
 }
 </style>
-<title>Deckard Tech | About</title>
+<title>Deckard Tech Computer Solutions About Our Computer and iPhone Repair Team</title>
 </head>
 <body>
 <div class="container">
@@ -115,12 +115,15 @@ a {
    <div >
     <p>My name is Ryan Deckard and I'd love to take a moment to tell you about myself. Computer / Internet work has always been my passion. 
     For the past 6 years I've been pursuing this line of work as a career starting in the Missouri National Guard as a 25B - Information 
-    Technology Specialist as well as working at a local internet company in Springfield, MO. My family and I recenlty moved here to 
+    Technology Specialist as well as working at a local internet company in Springfield, MO. My family and I recently moved here to 
     Summerville, SC to continue that same career as a Network Engineer assisting the base in Charleston and I would love to pass on 
     my experience and expertise to all of my neighbors and friends here in the Low Country. If you ever have any issues or need help 
     with anything computer related don't hesitate to get in contact with me anyway you feel comfortable. </p>
   </div>
 </div>
 </div>
+<footer class="bg-dark expand-footer justify-content-center">
+    <?php include("footer.php"); ?>
+  </footer>
 </body>
 </html>

@@ -169,5 +169,8 @@ if (isset($_POST['submit'])) {
 }
 ?>
  </div>
+ <footer class="bg-dark expand-footer justify-content-center">
+    <?php include("footer.php"); ?>
+  </footer>
 </body>
 </html>

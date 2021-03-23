@@ -1,6 +1,7 @@
 html {
   font-family: Arial;
   font-size: 20px;
+  font-display: swap;
   box-sizing: border-box;
   background-color: white;
 }
@@ -10,6 +11,18 @@ body {
 }
 .body {
   padding-top:100px;
+}
+a:hover {
+  text-decoration: none;
+}
+.expand-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.blue {
+  color: #3A96B8;
+  font-weight: normal;
 }
 a:hover {
   opacity: .6
@@ -84,11 +97,22 @@ input[type=submit]:hover {
 }
 .col {
   border-radius: 1%;
-  border: 2px solid black;
-  box-shadow: 5px 8px 5px;
+  border: 2px solid #555;
+  box-shadow: 5px 8px 5px gray;
   color: black;
-  padding-top: 10px
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
 
+}
+.col a {
+  color: black;
+}
+.col a:hover {
+  color: black;
+  text-decoration: none;
+  opacity: .8;
+  
 }
 .col:hover {
   box-shadow: 5px 1px 5px;

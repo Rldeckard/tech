@@ -82,7 +82,7 @@ a {
 <body>
 <div class="container animation">
   <div style="grid-column:1/4;grid-row:2;padding-bottom:20px">
-    <h1><b>HOURS OF OPERATION</b></h1>
+    <h1 class="blue"><b>HOURS OF OPERATION</b></h1>
   </div>
   <div style="grid-column:2;grid-row:3;padding-bottom:20px">
     <h2><b>Week Days</b></h2>
@@ -101,5 +101,8 @@ a {
   </ul>
   </div>
 </div>
+<footer class="bg-dark expand-footer justify-content-center">
+    <?php include("footer.php"); ?>
+  </footer>
 </body>
 </html>

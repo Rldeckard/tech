@@ -123,6 +123,7 @@ a {
         Let Me handle that burden. Tired of manually upgrading all the computers in your office? I'd be happy to take that off your hands. Much cheaper than hiring a full time IT staff and much more knowledgeable.</p>
       </div>
       <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
+        <a href="summerville-sc/services-near-me/iphone-repair-near-me/index.php">
         <p class="title text-center"><i class="fa fa-mobile fa-5x" ></i><br>Android and Apple iPhones</p><hr><br>
           <ul>
             <li>Screen Replacements</li>
@@ -131,8 +132,10 @@ a {
             <li>Diagnostic and Repair</li>
             <li>Software Upgrades and Diagnostic</li>
           </ul>
+        </a>
       </div>
       <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
+        <a href="summerville-sc/services-near-me/computer-repair-near-me/index.php">
         <p class="title text-center"><i class="fa fa-laptop fa-5x" ></i><br>Desktops and Laptops</p><hr><br>
           <ul>
             <li>Cable Management</li>
@@ -141,6 +144,7 @@ a {
             <li>Parts diagnostic and repair</li>
             <li>Custom Computer Builds</li>
           </ul>
+        </a>
       </div>
       <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
         <p class="title text-center"><i class="fa fa-code fa-5x" ></i><br><br>Website Design and Automation</p><hr><br>
@@ -153,6 +157,7 @@ a {
           </ul>
       </div>
       <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
+        <a href="summerville-sc/services-near-me/virus-removal-near-me/index.php">
         <p class="title text-center"><i class="fa fa-cogs fa-5x" ></i><br><br>Software</p><hr><br>
           <ul>
             <li>Software Tune ups</li>
@@ -160,8 +165,10 @@ a {
             <li>Virus removal</li>
             <li>Program installation and removal</li>
           </ul>
+        </a>
       </div>
       <div class="col col-12 col-md-12 col-lg-5 ml-auto mt-4">
+        <a href="summerville-sc/services-near-me/wifi-solutions-near-me/index.php">
         <p class="title text-center"><i class="fa fa-wifi fa-5x" ></i><br>Internet</p><hr><br>
           <ul>
             <li>Network installation and setup</li>
@@ -169,9 +176,13 @@ a {
             <li>Network troubleshooting</li>
             <li>Firmware upgrades</li>
           </ul>
+        </a>
       </div>
     </div>
   </div>
 </div>
+<footer class="bg-dark expand-footer justify-content-center">
+    <?php include("footer.php"); ?>
+  </footer>
 </body>
 </html>

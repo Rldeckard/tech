@@ -25,36 +25,41 @@ header("X-Content-Security-Policy: ".$CSPheader);
 header("X-WebKit-CSP: ".$CSPheader);
 ?>
 <!DOCTYPE html>
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" async defer>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async defer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-        crossorigin="anonymous"></script>
-<link rel="stylesheet" 
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-      crossorigin="anonymous">
-      
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" async>
+<!--Page Icons, mostly through the services columns-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async>
 
-      
 <meta name="referrer" content="origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="/Images/logo-web-icon.png">
-<link href="/css/Stylesheet.css" rel="stylesheet">
-<link href="/css/mobile.css" rel="stylesheet">
+<link rel="shortcut icon" href="/Images/logo-web-icon.webp">
+<link href="/css/Stylesheet.css" rel="stylesheet" defer>
+<link href="/css/mobile.css" rel="stylesheet" defer>
 
 
 
 <!--Bootstrap required items, mainly for NavBar-->
+<link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous" async>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
         crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
         crossorigin="anonymous"></script>
-<!--Bootstrap required items, mainly for NavBar-->
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<!--^^^^^^^^^^^Bootstrap required items, mainly for NavBar^^^^^^^^-->
+
+
+
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async></script>
 </script>
+
+
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0GRDBJPNY"></script>
 <script>
@@ -78,57 +83,6 @@ header("X-WebKit-CSP: ".$CSPheader);
 
 <style>
 
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  background-color: rgb(0, 0, 0, .6);
-  color: #3A96B8;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-align: right;
-  z-index: 1;
-}
-
-/* Style the buttons inside the tab */
-.tab button, .tab a, .tab select {
-  background-color: inherit;
-  text-decoration: none;
-  float: left;
-  vertical-align: center;
-  text-align: right;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 18px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-  color: #3A96B8;
-}
-.tab select {
-  width: auto;
-  height: auto;
-  margin: auto;
-  font-size: 16px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover, .tab select:hover, .tab a:hover{
-  background-color: #ddd;
-  color: #222;
-
-}
-
-/* Create an active/current tablink class */
-.tab button.active, .tab option:active, a.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  border-top: none;
-}
 }
 ul {
   list-style-type: none;
@@ -143,7 +97,7 @@ ul {
 </style>
 <!--<img src="Images/logo-web.jpg" width='250' alt="Deckard Tech">-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="/Images/logo-web-transparent.png" width="200"></a>
+  <a class="navbar-brand" href="#"><img src="/Images/logo-web-transparent.webp" width="200"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
                                                                       aria-controls="navbarNav" 
                                                                       aria-expanded="false" 
@@ -156,16 +110,19 @@ ul {
         <a class="nav-link" href="/index.php">Start Here <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/fairtechpricing.php">Brass Tacks</a>
+        <a class="nav-link" href="/fairtechpricing.php">Services</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/computerservicehours.php">When do we work?</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/aboutitguy.php">Our Mission</a>
+        <a class="nav-link" href="/aboutitguy.php">About Us</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/computerguycontact.php">Ask me Anything!</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/computer-repair-blog/">Blog</a>
       </li>
     </ul>
   </div>
